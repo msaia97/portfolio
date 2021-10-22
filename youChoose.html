@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Soggyroll</title>
+		<title>Right Sidebar - Landed by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,16 +17,16 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Soggyroll</a></h1>
+					<h1 id="logo"><a href="home.html">YouChoose</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="home.html">Home</a></li>
 							<li>
 								<a href="#">Projects</a>
 								<ul>
-									<li><a href="left-sidebar.html">Soggyroll</a></li>
-									<li><a href="right-sidebar.html">YouChoose</a></li>
-									<li><a href="no-sidebar.html">Super Shades</a></li>
+									<li><a href="soggyroll.html">Soggyroll</a></li>
+									<li><a href="youChoose.html">YouChoose</a></li>
+									<li><a href="superShades.html">Super Shades</a></li>
 									<!-- <li>
 										<a href="#">Submenu</a>
 										<ul>
@@ -38,7 +38,7 @@
 									</li> -->
 								</ul>
 							</li>
-							<li><a href="elements.html">About</a></li>
+							<li><a href="about.html">About</a></li>
 							<!-- <li><a href="#" class="button primary">Sign Up</a></li> -->
 						</ul>
 					</nav>
@@ -48,57 +48,63 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Soggyroll</h2>
-							<p>An anime streaming service</p>
+							<h2>YouChoose</h2>
+							<p>A web application that can narrow down your food choices</p>
 						</header>
 						<div class="row gtr-150">
+							<div class="col-8 col-12-medium">
+
+								<!-- Content -->
+									<section id="content">
+										<a href="#" class="image fit"><img src="images/wheel.png" alt="" /></a>
+										<h3>Tech stack:</h3>
+										<p>YouChoose is built with the MERN stack(mongoDB, express.js, reaxt, and node.js) and Yelp's api. Using mongoDB, a
+										nonrelational database
+										to hold our users, as well as their favorite restaurants. We use express.js to make requests to the database
+										and node.js to create the models and framework. React is used in the front end to deliver a responsive interface.</p>
+										<!-- <p></p> -->
+										<h3>Features</h3>
+										<p>YouChoose provides random restaurants provided by Yelp's api</p>
+										<ul>
+											<li>An image carousel, populated with personal pictures taken by the creators, that changes every few seconds</li>
+											<li>A home screen that has a dynamic background that changes based on the time of day where the user is located</li>
+											<li>A wheel that randomly assigns a cuisine to the user</li>
+											<li>Restaurants that fit the parameters provided by Yelp's api</li>
+											<li>A list of all the restaurants that you favorited</li>
+											<li>Links to the actual restaurants Yelp page</li>
+										</ul>
+									</section>
+
+							</div>
 							<div class="col-4 col-12-medium">
 
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
 											<h3>About</h3>
-											<p>This is an app that is a clone of Crunchyroll, the anime streaming site. With this site you can create your own account,
-											bookmark their favorite animes, search anime, as well as watch small bits of the anime series that you select.</p>
+											<p>YouChoose is an for app the people that can't decide where to go or
+											what to eat! You are able to choose between two locations, New York and San Francisco. 
+											After making your selection you can choose the type of food you want between breakfast, luch, and dinner, via the time buttons.
+											Then you are greeted with a wheel that will choose the type of cuisine for you. Using Yelps api we then offer ten randomized choices 
+											that fit the parameters. You can also favorite your favorite restaurants.
+										 </p>
 											<footer>
 												<ul class="actions">
-													<li><a href="https://soggyroll.herokuapp.com/#/" class="button">Check it out!</a></li>
+													<li><a href="https://yu-choose.herokuapp.com/#/" class="button">Check it out!</a></li>
 												</ul>
 											</footer>
 										</section>
 										<hr />
 										<section>
-											<a href="#" class="image fit"><img src="images/soggyFaceImg.png" alt="" /></a>
-											<h3>Tech stack</h3>
-											<p>This project uses a Ruby on Rails backend that connects to a PostgreSQL relational database, a React and Redux frontend,
-											used to manage state and present a receptive
-											frontend apprearence.</p>
-											<!-- <footer>
+											<a href="#" class="image fit"><img src="images/youChoose.png" alt="" /></a>
+											<!-- <h3>Amet Lorem Tempus</h3>
+											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+											<footer>
 												<ul class="actions">
 													<li><a href="#" class="button">Learn More</a></li>
 												</ul>
 											</footer> -->
 										</section>
-									</section>
-
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-								<!-- Content -->
-									<section id="content">
-										<a href="#" class="image fit"><img src="images/soggyFeat.png" alt="" /></a>
-										<h3>Features</h3>
-										<p>Soggyroll features a few popular anime, as well as some personal favorites</p>
-										<!-- <p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p> -->
-										<!-- <h3>Sed Magna Ornare</h3>
-										<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p> -->
-										<ul>
-											<li>An image carousel that will change every few seconds</li>
-											<li>A functional search bar that will be able to search for your favorite anime</li>
-											<li>You can watch episode clips from the respective anime</li>
-											<li>A favorite function, where you can save your favorite anime for later</li>
-											<li>Coming soon: comments, reviews, manga section, randomizer button, more anime and episodes</li>
-										</ul>
 									</section>
 
 							</div>
@@ -116,11 +122,9 @@
 						<li><a href="https://github.com/msaia97" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 						<!-- <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> -->
 					</ul>
-					
 					<ul class="copyright">Contact me:
 						<li>email: masonsai@gmail.com</li>
 						<li>phone: 650-919-4784</li>
-						<!-- <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 					</ul>
 				</footer>
 
